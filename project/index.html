@@ -1,0 +1,59 @@
+<! -- -->
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <title>Github Hub</title>
+        <! -- -->
+            <link rel="stylesheet" href="css/site.css">
+
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <nav>
+                    <ul>
+                        <li> <a href="index.html">Home </a></li>
+                        <li> <a href="contact.html">Contact</a></li>
+                        <li> <a href="about.html">About</a></li>
+                    </ul>
+                </nav>
+                
+                <div><img src="img/logo.gif" alt="yikes!" class="bordered-image"></div>
+                <div>This is a site to search <a href="http://www.github.com">Github</a> for interesting projects</div>
+              
+            </header>
+            <section id="main">
+                <p>In this <em>sample site</em> we will <span>show a list</span> of ineresting stuff.
+                </p>
+                <form action="http://cwinsorconsulting.com" method="POST" class=simple-form><br>
+                    <label for="searchPhrase">Search Phrase:</label>
+                    <input type="text" name="searchPhrase"><br>
+                    <input type="checkbox" name="useStars" checked="true">Use Stars?<br>
+                    <label for="useStars">Use Stars?</label><br>
+                    <label for="langChoice">Language:</label>
+                    <select name="langChoice" id="langChoice">
+                        <option value="all">all</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="c#" selected>c#</option>
+                        <option value="Java">Java</option>
+                        <option value="Ruby">Ruby</option>
+                    </select><br>
+                    <input type="submit" value="search">
+                </form>
+                <div id="results" class="bordered-image">
+                    This is where results will show up
+                </div>
+             
+            </section>
+            <section>
+                <div><img src="img/example01.gif" alt="yikes!"></div>
+            </section>
+        </div>
+        <footer>
+            &copy; 2020 Chris Winsor Consulting
+        </footer>
+    </body>
+
+    </html>
